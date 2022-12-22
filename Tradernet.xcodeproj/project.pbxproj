@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		516C487D4A198030EC23C53F /* Pods_Tradernet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405EEBBA9C3075671AF5C840 /* Pods_Tradernet.framework */; };
 		AC9539EC29543975005B5493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9539EB29543975005B5493 /* AppDelegate.swift */; };
 		AC9539EE29543975005B5493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9539ED29543975005B5493 /* SceneDelegate.swift */; };
-		AC9539F029543975005B5493 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9539EF29543975005B5493 /* ViewController.swift */; };
-		AC9539F329543975005B5493 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9539F129543975005B5493 /* Main.storyboard */; };
 		AC9539F529543979005B5493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9539F429543979005B5493 /* Assets.xcassets */; };
 		AC9539F829543979005B5493 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC9539F629543979005B5493 /* LaunchScreen.storyboard */; };
+		AC953A0629543E94005B5493 /* MainListPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953A0029543E94005B5493 /* MainListPresenter.swift */; };
+		AC953A0729543E94005B5493 /* MainListRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953A0129543E94005B5493 /* MainListRouter.swift */; };
+		AC953A0829543E94005B5493 /* MainListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953A0229543E94005B5493 /* MainListViewController.swift */; };
+		AC953A0929543E94005B5493 /* MainListProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953A0329543E94005B5493 /* MainListProtocols.swift */; };
+		AC953A0A29543E94005B5493 /* MainListInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953A0429543E94005B5493 /* MainListInteractor.swift */; };
+		AC953A0B29543E94005B5493 /* MainListConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC953A0529543E94005B5493 /* MainListConfigurator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		405EEBBA9C3075671AF5C840 /* Pods_Tradernet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tradernet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C9E18F0ABAD06D36A8C589B /* Pods-Tradernet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradernet.debug.xcconfig"; path = "Target Support Files/Pods-Tradernet/Pods-Tradernet.debug.xcconfig"; sourceTree = "<group>"; };
 		AC9539E829543975005B5493 /* Tradernet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradernet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9539EB29543975005B5493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9539ED29543975005B5493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		AC9539EF29543975005B5493 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		AC9539F229543975005B5493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AC9539F429543979005B5493 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC9539F729543979005B5493 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC9539F929543979005B5493 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC953A0029543E94005B5493 /* MainListPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListPresenter.swift; sourceTree = "<group>"; };
+		AC953A0129543E94005B5493 /* MainListRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListRouter.swift; sourceTree = "<group>"; };
+		AC953A0229543E94005B5493 /* MainListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListViewController.swift; sourceTree = "<group>"; };
+		AC953A0329543E94005B5493 /* MainListProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListProtocols.swift; sourceTree = "<group>"; };
+		AC953A0429543E94005B5493 /* MainListInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListInteractor.swift; sourceTree = "<group>"; };
+		AC953A0529543E94005B5493 /* MainListConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainListConfigurator.swift; sourceTree = "<group>"; };
+		F8A7DB9754D12EC3CB3F1FF9 /* Pods-Tradernet.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradernet.release.xcconfig"; path = "Target Support Files/Pods-Tradernet/Pods-Tradernet.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +43,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				516C487D4A198030EC23C53F /* Pods_Tradernet.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3D0F59ACC1FDE0C1CD657056 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				405EEBBA9C3075671AF5C840 /* Pods_Tradernet.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7C6743038CE2D7A357AE087E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4C9E18F0ABAD06D36A8C589B /* Pods-Tradernet.debug.xcconfig */,
+				F8A7DB9754D12EC3CB3F1FF9 /* Pods-Tradernet.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		AC9539DF29543975005B5493 = {
 			isa = PBXGroup;
 			children = (
 				AC9539EA29543975005B5493 /* Tradernet */,
 				AC9539E929543975005B5493 /* Products */,
+				7C6743038CE2D7A357AE087E /* Pods */,
+				3D0F59ACC1FDE0C1CD657056 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +91,25 @@
 			children = (
 				AC9539EB29543975005B5493 /* AppDelegate.swift */,
 				AC9539ED29543975005B5493 /* SceneDelegate.swift */,
-				AC9539EF29543975005B5493 /* ViewController.swift */,
-				AC9539F129543975005B5493 /* Main.storyboard */,
 				AC9539F429543979005B5493 /* Assets.xcassets */,
+				AC9539FF29543BD9005B5493 /* Main */,
 				AC9539F629543979005B5493 /* LaunchScreen.storyboard */,
 				AC9539F929543979005B5493 /* Info.plist */,
 			);
 			path = Tradernet;
+			sourceTree = "<group>";
+		};
+		AC9539FF29543BD9005B5493 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				AC953A0029543E94005B5493 /* MainListPresenter.swift */,
+				AC953A0129543E94005B5493 /* MainListRouter.swift */,
+				AC953A0229543E94005B5493 /* MainListViewController.swift */,
+				AC953A0329543E94005B5493 /* MainListProtocols.swift */,
+				AC953A0429543E94005B5493 /* MainListInteractor.swift */,
+				AC953A0529543E94005B5493 /* MainListConfigurator.swift */,
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +119,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AC9539FC29543979005B5493 /* Build configuration list for PBXNativeTarget "Tradernet" */;
 			buildPhases = (
+				4852CF760A346C7D326BAC30 /* [CP] Check Pods Manifest.lock */,
 				AC9539E429543975005B5493 /* Sources */,
 				AC9539E529543975005B5493 /* Frameworks */,
 				AC9539E629543975005B5493 /* Resources */,
+				16DCB997D83868C3E26F9684 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -127,34 +174,72 @@
 			files = (
 				AC9539F829543979005B5493 /* LaunchScreen.storyboard in Resources */,
 				AC9539F529543979005B5493 /* Assets.xcassets in Resources */,
-				AC9539F329543975005B5493 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		16DCB997D83868C3E26F9684 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tradernet/Pods-Tradernet-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Tradernet/Pods-Tradernet-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Tradernet/Pods-Tradernet-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4852CF760A346C7D326BAC30 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Tradernet-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AC9539E429543975005B5493 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC9539F029543975005B5493 /* ViewController.swift in Sources */,
+				AC953A0729543E94005B5493 /* MainListRouter.swift in Sources */,
+				AC953A0929543E94005B5493 /* MainListProtocols.swift in Sources */,
+				AC953A0B29543E94005B5493 /* MainListConfigurator.swift in Sources */,
 				AC9539EC29543975005B5493 /* AppDelegate.swift in Sources */,
+				AC953A0829543E94005B5493 /* MainListViewController.swift in Sources */,
 				AC9539EE29543975005B5493 /* SceneDelegate.swift in Sources */,
+				AC953A0629543E94005B5493 /* MainListPresenter.swift in Sources */,
+				AC953A0A29543E94005B5493 /* MainListInteractor.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		AC9539F129543975005B5493 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				AC9539F229543975005B5493 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		AC9539F629543979005B5493 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -282,6 +367,7 @@
 		};
 		AC9539FD29543979005B5493 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4C9E18F0ABAD06D36A8C589B /* Pods-Tradernet.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -292,7 +378,6 @@
 				INFOPLIST_FILE = Tradernet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -310,6 +395,7 @@
 		};
 		AC9539FE29543979005B5493 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F8A7DB9754D12EC3CB3F1FF9 /* Pods-Tradernet.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -320,7 +406,6 @@
 				INFOPLIST_FILE = Tradernet/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
