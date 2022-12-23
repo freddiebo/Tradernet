@@ -17,7 +17,7 @@ class MainListViewController: UIViewController {
         table.translatesAutoresizingMaskIntoConstraints = false
         table.separatorColor = .gray
 //        table.rowHeight = 82
-//        table.register(UITableViewCell.self, forCellReuseIdentifier: UITableViewCell.nameOfClass)
+        table.register(TicketTableViewCell.self, forCellReuseIdentifier: "ticket")
         table.delegate = self
         table.dataSource = self
         
@@ -35,11 +35,15 @@ class MainListViewController: UIViewController {
 // MARK: - UITableViewDelegate protocol
 extension MainListViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        10
+        presenter?.listOfTickets.count ?? 0
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        UITableViewCell()
+        guard let model = presenter?.listOfTickets[indexPath.row] else { return UITableViewCell() }
+        let cell = tableView.dequeueReusableCell(withIdentifier: "ticket", for: indexPath) as! TicketTableViewCell
+        print(model)
+        cell.setupCell(model: model)
+        return cell
     }
     
 }
@@ -56,7 +60,7 @@ extension MainListViewController {
 
 // MARK: - MainListViewProtocol
 extension MainListViewController: MainListViewProtocol {
-    func displaySomething() {
-
+    func reloadData() {
+        table.reloadData()
     }
 }

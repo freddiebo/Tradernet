@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		516C487D4A198030EC23C53F /* Pods_Tradernet.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 405EEBBA9C3075671AF5C840 /* Pods_Tradernet.framework */; };
+		AC220D6F295562A4004FC01F /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC220D6E295562A4004FC01F /* TicketModel.swift */; };
+		AC220D7229556669004FC01F /* RealtimeQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC220D7129556669004FC01F /* RealtimeQuotes.swift */; };
+		AC220D74295593B9004FC01F /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC220D73295593B9004FC01F /* TicketTableViewCell.swift */; };
 		AC9539EC29543975005B5493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9539EB29543975005B5493 /* AppDelegate.swift */; };
 		AC9539EE29543975005B5493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9539ED29543975005B5493 /* SceneDelegate.swift */; };
 		AC9539F529543979005B5493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9539F429543979005B5493 /* Assets.xcassets */; };
@@ -23,6 +26,9 @@
 /* Begin PBXFileReference section */
 		405EEBBA9C3075671AF5C840 /* Pods_Tradernet.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tradernet.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C9E18F0ABAD06D36A8C589B /* Pods-Tradernet.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tradernet.debug.xcconfig"; path = "Target Support Files/Pods-Tradernet/Pods-Tradernet.debug.xcconfig"; sourceTree = "<group>"; };
+		AC220D6E295562A4004FC01F /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
+		AC220D7129556669004FC01F /* RealtimeQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeQuotes.swift; sourceTree = "<group>"; };
+		AC220D73295593B9004FC01F /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
 		AC9539E829543975005B5493 /* Tradernet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradernet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9539EB29543975005B5493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9539ED29543975005B5493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -64,8 +70,24 @@
 				4C9E18F0ABAD06D36A8C589B /* Pods-Tradernet.debug.xcconfig */,
 				F8A7DB9754D12EC3CB3F1FF9 /* Pods-Tradernet.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		AC220D6D29556285004FC01F /* TicketCell */ = {
+			isa = PBXGroup;
+			children = (
+				AC220D6E295562A4004FC01F /* TicketModel.swift */,
+				AC220D73295593B9004FC01F /* TicketTableViewCell.swift */,
+			);
+			path = TicketCell;
+			sourceTree = "<group>";
+		};
+		AC220D702955662D004FC01F /* NetworkLayer */ = {
+			isa = PBXGroup;
+			children = (
+				AC220D7129556669004FC01F /* RealtimeQuotes.swift */,
+			);
+			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
 		AC9539DF29543975005B5493 = {
@@ -92,6 +114,7 @@
 				AC9539EB29543975005B5493 /* AppDelegate.swift */,
 				AC9539ED29543975005B5493 /* SceneDelegate.swift */,
 				AC9539F429543979005B5493 /* Assets.xcassets */,
+				AC220D702955662D004FC01F /* NetworkLayer */,
 				AC9539FF29543BD9005B5493 /* Main */,
 				AC9539F629543979005B5493 /* LaunchScreen.storyboard */,
 				AC9539F929543979005B5493 /* Info.plist */,
@@ -104,6 +127,7 @@
 			children = (
 				AC953A0029543E94005B5493 /* MainListPresenter.swift */,
 				AC953A0129543E94005B5493 /* MainListRouter.swift */,
+				AC220D6D29556285004FC01F /* TicketCell */,
 				AC953A0229543E94005B5493 /* MainListViewController.swift */,
 				AC953A0329543E94005B5493 /* MainListProtocols.swift */,
 				AC953A0429543E94005B5493 /* MainListInteractor.swift */,
@@ -227,13 +251,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC953A0729543E94005B5493 /* MainListRouter.swift in Sources */,
+				AC220D7229556669004FC01F /* RealtimeQuotes.swift in Sources */,
 				AC953A0929543E94005B5493 /* MainListProtocols.swift in Sources */,
 				AC953A0B29543E94005B5493 /* MainListConfigurator.swift in Sources */,
 				AC9539EC29543975005B5493 /* AppDelegate.swift in Sources */,
 				AC953A0829543E94005B5493 /* MainListViewController.swift in Sources */,
+				AC220D74295593B9004FC01F /* TicketTableViewCell.swift in Sources */,
 				AC9539EE29543975005B5493 /* SceneDelegate.swift in Sources */,
 				AC953A0629543E94005B5493 /* MainListPresenter.swift in Sources */,
 				AC953A0A29543E94005B5493 /* MainListInteractor.swift in Sources */,
+				AC220D6F295562A4004FC01F /* TicketModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

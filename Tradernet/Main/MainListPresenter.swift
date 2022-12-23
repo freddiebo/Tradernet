@@ -12,6 +12,8 @@ class MainListPresenter {
     var interactor: MainListInteractorProtocol!
     var router: MainListRouterProtocol?
     
+    var listOfTickets: [TicketModel] = []
+    
     init() {
     }
 }
@@ -23,14 +25,23 @@ extension MainListPresenter {
 // MARK: - MainListViewToPresenterProtocol
 extension MainListPresenter: MainListViewToPresenterProtocol {
     func viewLoaded() {
-        interactor.doSomething()
+        interactor.connectSocket()
     }
 }
 
 // MARK: - MainListInteractorToPresenterProtocol
 extension MainListPresenter: MainListInteractorToPresenterProtocol {
-    func presentSomething() {
-        view?.displaySomething()
+    func didReciveTicket(with model: TicketModel) {
+        if let ticketIndex = listOfTickets.firstIndex(where: { $0.ticket == model.ticket }) {
+//            listOfTickets[ticketIndex] = model
+        } else {
+            listOfTickets.append(model)
+            view?.reloadData()
+        }
+        
+        if listOfTickets.count == 32 {
+            interactor.disconnectSocket()
+        }
     }
 }
 

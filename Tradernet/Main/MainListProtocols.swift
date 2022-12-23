@@ -13,15 +13,19 @@ protocol MainListConfiguratorProtocol: AnyObject {
 }
 
 protocol MainListInteractorProtocol: AnyObject {
-    func doSomething()
+    func connectSocket()
+    
+    func disconnectSocket()
 }
 
 protocol MainListViewToPresenterProtocol: AnyObject {
+    var listOfTickets: [TicketModel] { get }
+    
     func viewLoaded()
 }
 
 protocol MainListInteractorToPresenterProtocol: AnyObject {
-    func presentSomething()
+    func didReciveTicket(with model: TicketModel)
 }
 
 protocol MainListRouterProtocol: AnyObject {
@@ -29,5 +33,5 @@ protocol MainListRouterProtocol: AnyObject {
 }
 
 protocol MainListViewProtocol: AnyObject {
-    func displaySomething()
+    func reloadData()
 }
