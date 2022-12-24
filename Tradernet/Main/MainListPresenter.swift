@@ -33,14 +33,13 @@ extension MainListPresenter: MainListViewToPresenterProtocol {
 extension MainListPresenter: MainListInteractorToPresenterProtocol {
     func didReciveTicket(with model: TicketModel) {
         if let ticketIndex = listOfTickets.firstIndex(where: { $0.ticket == model.ticket }) {
-//            listOfTickets[ticketIndex] = model
+            if model.isNeedUpdate() {
+                listOfTickets[ticketIndex].updateIfNeeded(with: model)
+                view?.reloadCell(with: ticketIndex)
+            }
         } else {
             listOfTickets.append(model)
             view?.reloadData()
-        }
-        
-        if listOfTickets.count == 32 {
-            interactor.disconnectSocket()
         }
     }
 }

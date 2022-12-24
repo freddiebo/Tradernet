@@ -18,7 +18,6 @@ class MainListInteractor {
 
     private var socket: WebSocket?
     private var isConnected: Bool = false
-//    private let server = WebSocketServer()
     
     init() {
         guard let url = URL(string: Constants.url) else { return }
@@ -60,10 +59,6 @@ extension MainListInteractor: MainListInteractorProtocol {
     func connectSocket() {
         guard let socket = socket else { return }
         socket.connect()
-    }
-    
-    func disconnectSocket() {
-        socket?.disconnect()
     }
 }
 

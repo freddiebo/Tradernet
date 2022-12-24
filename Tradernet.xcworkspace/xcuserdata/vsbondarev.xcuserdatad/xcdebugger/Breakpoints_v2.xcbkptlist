@@ -14,8 +14,8 @@
             filePath = "Tradernet/Main/MainListInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "24"
-            endingLineNumber = "24"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
             landmarkName = "init()"
             landmarkType = "7">
             <Locations>
@@ -77,8 +77,8 @@
             filePath = "Tradernet/Main/MainListInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "60"
+            endingLineNumber = "60"
             landmarkName = "connectSocket()"
             landmarkType = "7">
          </BreakpointContent>
@@ -93,8 +93,8 @@
             filePath = "Tradernet/Main/MainListInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "68"
+            endingLineNumber = "68"
             landmarkName = "didReceive(event:client:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -109,8 +109,8 @@
             filePath = "Tradernet/Main/MainListInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "35"
-            endingLineNumber = "35"
+            startingLineNumber = "34"
+            endingLineNumber = "34"
             landmarkName = "writeData()"
             landmarkType = "7">
          </BreakpointContent>
@@ -125,8 +125,8 @@
             filePath = "Tradernet/Main/MainListInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "49"
-            endingLineNumber = "49"
+            startingLineNumber = "48"
+            endingLineNumber = "48"
             landmarkName = "decodeRecive(text:)"
             landmarkType = "7">
             <Locations>
@@ -173,8 +173,8 @@
             filePath = "Tradernet/Main/MainListInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "47"
-            endingLineNumber = "47"
+            startingLineNumber = "46"
+            endingLineNumber = "46"
             landmarkName = "decodeRecive(text:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -189,25 +189,9 @@
             filePath = "Tradernet/Main/MainListInteractor.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "51"
-            endingLineNumber = "51"
+            startingLineNumber = "50"
+            endingLineNumber = "50"
             landmarkName = "decodeRecive(text:)"
-            landmarkType = "7">
-         </BreakpointContent>
-      </BreakpointProxy>
-      <BreakpointProxy
-         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
-         <BreakpointContent
-            uuid = "FAFB8B07-4629-4A9F-ACF6-B90CF59AD490"
-            shouldBeEnabled = "No"
-            ignoreCount = "0"
-            continueAfterRunningActions = "No"
-            filePath = "Tradernet/Main/MainListPresenter.swift"
-            startingColumnNumber = "9223372036854775807"
-            endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "36"
-            endingLineNumber = "36"
-            landmarkName = "didReciveTicket(with:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>
@@ -263,14 +247,14 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "29D5DCCB-D9B5-4AC5-BB58-779CB470DBE3"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "48"
-            endingLineNumber = "48"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
             landmarkName = "lastTradeAndNameLabel"
             landmarkType = "24">
          </BreakpointContent>
@@ -279,16 +263,337 @@
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
             uuid = "0FBEC966-536A-45B9-BF99-528ADCF2C637"
-            shouldBeEnabled = "Yes"
+            shouldBeEnabled = "No"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Tradernet/Main/TicketCell/TicketModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "19"
-            endingLineNumber = "19"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
             landmarkName = "init(from:)"
             landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "75421469-908B-41A8-92FD-078CE445A68F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/MainListPresenter.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "36"
+            endingLineNumber = "36"
+            landmarkName = "didReciveTicket(with:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "32A269F9-0E4B-46B6-91FD-133EE7EF7688"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "updateIfNeeded(with:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "32A269F9-0E4B-46B6-91FD-133EE7EF7688 - a25b4f448c7d7159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tradernet.TicketModel.updateIfNeeded(with: Tradernet.TicketModel) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/Main/TicketCell/TicketModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "122">
+               </Location>
+               <Location
+                  uuid = "32A269F9-0E4B-46B6-91FD-133EE7EF7688 - a25b4f448c7d7159"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tradernet.TicketModel.updateIfNeeded(with: Tradernet.TicketModel) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/Main/TicketCell/TicketModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "33"
+                  endingLineNumber = "33"
+                  offsetFromSymbolStart = "156">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "2E221DD0-6635-4ABF-853C-842AD67ED3A8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "128"
+            endingLineNumber = "128"
+            landmarkName = "setupCell(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E5AED6F4-4910-4C54-95B4-CC42DF877985"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "131"
+            endingLineNumber = "131"
+            landmarkName = "setupCell(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC693111-6FC6-4244-A09E-76F071B78BAD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/UI/UIImageView+Extensions.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "14"
+            endingLineNumber = "14"
+            landmarkName = "downloadIcon(with:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EC693111-6FC6-4244-A09E-76F071B78BAD - 72460f97ef6c229a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIImageView.downloadIcon(with: Swift.String, completion: Swift.Optional&lt;(Swift.Bool) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/UI/UIImageView+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "311">
+               </Location>
+               <Location
+                  uuid = "EC693111-6FC6-4244-A09E-76F071B78BAD - 72460f97ef6c229a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in __C.UIImageView.downloadIcon(with: Swift.String, completion: Swift.Optional&lt;(Swift.Bool) -&gt; ()&gt;) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/UI/UIImageView+Extensions.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "14"
+                  endingLineNumber = "14"
+                  offsetFromSymbolStart = "381">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "68C87673-E952-48EE-878D-81852D663BE9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "107"
+            endingLineNumber = "107"
+            landmarkName = "setupCell(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "D799D149-FC5D-4269-AAE8-36389E94E61F"
+            shouldBeEnabled = "No"
+            condition = "model.ticket == &quot;TGKA&quot;"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "setupCell(model:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "D799D149-FC5D-4269-AAE8-36389E94E61F - ba3c91ef9de7bb0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tradernet.TicketTableViewCell.setupCell(model: Tradernet.TicketModel) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "3297">
+               </Location>
+               <Location
+                  uuid = "D799D149-FC5D-4269-AAE8-36389E94E61F - ba3c91ef9de7bb0a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tradernet.TicketTableViewCell.setupCell(model: Tradernet.TicketModel) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "3457">
+               </Location>
+               <Location
+                  uuid = "D799D149-FC5D-4269-AAE8-36389E94E61F - 41ad9f24bfce3202"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Character) -&gt; Swift.Bool in Tradernet.TicketTableViewCell.setupCell(model: Tradernet.TicketModel) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "99"
+                  endingLineNumber = "99"
+                  offsetFromSymbolStart = "42">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "0B1869D0-E93D-4859-8918-81C62BA37935"
+            shouldBeEnabled = "No"
+            condition = "model.ticket == &quot;TGKA&quot;"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "100"
+            endingLineNumber = "100"
+            landmarkName = "setupCell(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "098D66DC-538F-485D-8005-96A8575A3AF1"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "98"
+            endingLineNumber = "98"
+            landmarkName = "setupCell(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FE1AED53-C851-4798-86EC-005D4615022D"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "101"
+            endingLineNumber = "101"
+            landmarkName = "setupCell(model:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "67831653-E06F-4F89-8A82-8FFF1BD155DB"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "105"
+            endingLineNumber = "105"
+            landmarkName = "setupCell(model:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "67831653-E06F-4F89-8A82-8FFF1BD155DB - ba3c91ef9de7ba44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tradernet.TicketTableViewCell.setupCell(model: Tradernet.TicketModel) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "4102">
+               </Location>
+               <Location
+                  uuid = "67831653-E06F-4F89-8A82-8FFF1BD155DB - ba3c91ef9de7ba44"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Tradernet.TicketTableViewCell.setupCell(model: Tradernet.TicketModel) -&gt; ()"
+                  moduleName = "Tradernet"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/vsbondarev/Documents/Developer/Tradernet/Tradernet/Main/TicketCell/TicketTableViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "105"
+                  endingLineNumber = "105"
+                  offsetFromSymbolStart = "4142">
+               </Location>
+            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
    </Breakpoints>

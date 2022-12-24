@@ -16,7 +16,6 @@ class MainListViewController: UIViewController {
         let table = UITableView()
         table.translatesAutoresizingMaskIntoConstraints = false
         table.separatorColor = .gray
-//        table.rowHeight = 82
         table.register(TicketTableViewCell.self, forCellReuseIdentifier: "ticket")
         table.delegate = self
         table.dataSource = self
@@ -39,13 +38,13 @@ extension MainListViewController: UITableViewDelegate, UITableViewDataSource {
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        guard let model = presenter?.listOfTickets[indexPath.row] else { return UITableViewCell() }
-        let cell = tableView.dequeueReusableCell(withIdentifier: "ticket", for: indexPath) as! TicketTableViewCell
-        print(model)
+        guard let model = presenter?.listOfTickets[indexPath.row],
+              let cell = tableView.dequeueReusableCell(withIdentifier: "ticket", for: indexPath) as? TicketTableViewCell else {
+            return UITableViewCell()
+        }
         cell.setupCell(model: model)
         return cell
     }
-    
 }
 
 // MARK: - Private Methods
@@ -53,7 +52,8 @@ extension MainListViewController {
     private func configure() {
         view.addSubview(table)
         table.snp.makeConstraints { make in
-            make.leading.trailing.top.bottom.equalTo(view)
+            make.top.equalTo(view.safeAreaLayoutGuide.snp.top)
+            make.leading.trailing.bottom.equalTo(view)
         }
     }
 }
@@ -62,5 +62,11 @@ extension MainListViewController {
 extension MainListViewController: MainListViewProtocol {
     func reloadData() {
         table.reloadData()
+    }
+    
+    func reloadCell(with index: Int) {
+        guard let cell = table.cellForRow(at: IndexPath(row: index, section: 0)) as? TicketTableViewCell,
+              let model = presenter?.listOfTickets[index]else { return }
+        cell.setupCell(model: model)
     }
 }

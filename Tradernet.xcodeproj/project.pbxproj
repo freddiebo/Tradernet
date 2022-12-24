@@ -11,6 +11,7 @@
 		AC220D6F295562A4004FC01F /* TicketModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC220D6E295562A4004FC01F /* TicketModel.swift */; };
 		AC220D7229556669004FC01F /* RealtimeQuotes.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC220D7129556669004FC01F /* RealtimeQuotes.swift */; };
 		AC220D74295593B9004FC01F /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC220D73295593B9004FC01F /* TicketTableViewCell.swift */; };
+		AC220D772955F0FF004FC01F /* UIImageView+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC220D762955F0FF004FC01F /* UIImageView+Extensions.swift */; };
 		AC9539EC29543975005B5493 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9539EB29543975005B5493 /* AppDelegate.swift */; };
 		AC9539EE29543975005B5493 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC9539ED29543975005B5493 /* SceneDelegate.swift */; };
 		AC9539F529543979005B5493 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC9539F429543979005B5493 /* Assets.xcassets */; };
@@ -29,6 +30,7 @@
 		AC220D6E295562A4004FC01F /* TicketModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketModel.swift; sourceTree = "<group>"; };
 		AC220D7129556669004FC01F /* RealtimeQuotes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealtimeQuotes.swift; sourceTree = "<group>"; };
 		AC220D73295593B9004FC01F /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		AC220D762955F0FF004FC01F /* UIImageView+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImageView+Extensions.swift"; sourceTree = "<group>"; };
 		AC9539E829543975005B5493 /* Tradernet.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tradernet.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC9539EB29543975005B5493 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AC9539ED29543975005B5493 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -90,6 +92,14 @@
 			path = NetworkLayer;
 			sourceTree = "<group>";
 		};
+		AC220D752955F0EE004FC01F /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				AC220D762955F0FF004FC01F /* UIImageView+Extensions.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		AC9539DF29543975005B5493 = {
 			isa = PBXGroup;
 			children = (
@@ -114,6 +124,7 @@
 				AC9539EB29543975005B5493 /* AppDelegate.swift */,
 				AC9539ED29543975005B5493 /* SceneDelegate.swift */,
 				AC9539F429543979005B5493 /* Assets.xcassets */,
+				AC220D752955F0EE004FC01F /* UI */,
 				AC220D702955662D004FC01F /* NetworkLayer */,
 				AC9539FF29543BD9005B5493 /* Main */,
 				AC9539F629543979005B5493 /* LaunchScreen.storyboard */,
@@ -253,6 +264,7 @@
 				AC953A0729543E94005B5493 /* MainListRouter.swift in Sources */,
 				AC220D7229556669004FC01F /* RealtimeQuotes.swift in Sources */,
 				AC953A0929543E94005B5493 /* MainListProtocols.swift in Sources */,
+				AC220D772955F0FF004FC01F /* UIImageView+Extensions.swift in Sources */,
 				AC953A0B29543E94005B5493 /* MainListConfigurator.swift in Sources */,
 				AC9539EC29543975005B5493 /* AppDelegate.swift in Sources */,
 				AC953A0829543E94005B5493 /* MainListViewController.swift in Sources */,

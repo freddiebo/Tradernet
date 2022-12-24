@@ -14,6 +14,7 @@ struct Quote: Codable {
     let name: String?
     let ltp: Double?
     let chg: Double?
+    let min_step: Double?
     
     init(dictionary: [String: Any]) {
         self.c = dictionary["c"] as? String
@@ -22,5 +23,6 @@ struct Quote: Codable {
         self.name = dictionary["name"] as? String
         self.ltp = dictionary["ltp"] as? Double
         self.chg = dictionary["chg"] as? Double
+        self.min_step = dictionary["min_step"] as? Double
     }
 }

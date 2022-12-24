@@ -14,7 +14,4 @@ class MainListRouter {
 
 // MARK: - MainListRouterProtocol
 extension MainListRouter: MainListRouterProtocol {
-    func routeToSomewhere() {
-        
-    }
 }

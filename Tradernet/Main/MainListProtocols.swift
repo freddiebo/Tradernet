@@ -14,13 +14,10 @@ protocol MainListConfiguratorProtocol: AnyObject {
 
 protocol MainListInteractorProtocol: AnyObject {
     func connectSocket()
-    
-    func disconnectSocket()
 }
 
 protocol MainListViewToPresenterProtocol: AnyObject {
     var listOfTickets: [TicketModel] { get }
-    
     func viewLoaded()
 }
 
@@ -29,9 +26,9 @@ protocol MainListInteractorToPresenterProtocol: AnyObject {
 }
 
 protocol MainListRouterProtocol: AnyObject {
-    func routeToSomewhere()
 }
 
 protocol MainListViewProtocol: AnyObject {
     func reloadData()
+    func reloadCell(with index: Int)
 }
